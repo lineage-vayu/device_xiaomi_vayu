@@ -39,7 +39,6 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayDevice \
     LineageSDKOverlayDevice \
     LineageSettingsOverlayDevice \
-    SettingsOverlayDevice \
     SystemUIOverlayDevice \
     TargetWifiOverlay
 
