@@ -34,12 +34,13 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel@1.0.vendor
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-# Overlay-RRO
 PRODUCT_PACKAGES += \
+    ApertureOverlayDevice \
+    FrameworkResOverlayDevice \
+    LineageSDKOverlayDevice \
+    LineageSettingsOverlayDevice \
+    SettingsOverlayDevice \
+    SystemUIOverlayDevice \
     TargetWifiOverlay
 
 # QDCM
