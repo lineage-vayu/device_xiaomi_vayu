@@ -41,8 +41,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayDevice \
     FrameworkResOverlayDevice \
-    LineageSDKOverlayDevice \
-    LineageSettingsOverlayDevice \
+    YAAPSettingsOverlayDevice \
+    SettingsOverlayDevice \
     SystemUIOverlayDevice \
     TargetWifiOverlay
 
